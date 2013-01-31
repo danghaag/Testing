@@ -6,8 +6,8 @@ package GradeBook;
  */
 public class GradeBook 
 {
-	public void displayMessage()
+	public void displayMessage( String courseName )
 	{
-		System.out.println("Welcome to the Grade Book!");
+		System.out.printf( "Welcome to the grade book for %s!\n", courseName );
 	}
 }
