@@ -7,7 +7,7 @@ public class main {
 		// TODO Auto-generated method stub
 		// New Comment
 		/** Javadoc  */
-
+		System.out.println("Welcon to Java Programming");
 	}
 
 }
