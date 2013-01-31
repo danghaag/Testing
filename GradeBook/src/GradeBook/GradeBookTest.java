@@ -15,11 +15,14 @@ public class GradeBookTest
 		// Create GradeBook object
 		GradeBook myGradeBook = new GradeBook();
 		
+		System.out.printf("Initial course name is: %s\n\n", myGradeBook.getCourseName() );
+		
 		System.out.println( "Please enter the course name:" );
-		String nameOfCourse = input.nextLine();
+		String theName = input.nextLine();
+		myGradeBook.setCourseName( theName );
 		System.out.println();
 		
-		myGradeBook.displayMessage( nameOfCourse );
+		myGradeBook.displayMessage();
 		input.close();
 	}
 
